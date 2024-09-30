@@ -6,7 +6,14 @@
 .. image:: /images/splash.png
    :alt: recursive logo
 
-Recursive IR Tools is a collection of DFIR tools that automate various tasks involved in digital forensics, incident response, and detection engineering.
+Recursive IR tools automate various tasks involved in incident response investigations including artefacts collection, log parsing, analysis, and reporting. 
+The goal is to determine as quick as possible the following or at least assess with a reasonable level of confidence:
+
+1. How the attacker got in - find the entry point (so we can close this hole)
+2. Which assets were touched - determine the scope of the breach (so we know which assets/accounts to remediate)
+3. Persistence mechanisms - find any implant or backdoor accounts (so we can cut their access)
+4. Evidence of exfiltration - determine what has been taken (to find out any further remediation steps needed)
+
 
 
 .. toctree::
