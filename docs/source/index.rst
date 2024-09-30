@@ -6,7 +6,7 @@
 .. image:: /images/splash.png
    :alt: recursive logo
 
-Recursive IR tools automate various tasks involved in incident response investigations including artefacts collection, log parsing, analysis, and reporting. 
+**Recursive IR Tools** automate various tasks involved in incident response investigations including artefacts collection, log parsing, analysis, and reporting. 
 The goal is to determine as quick as possible the following or at least assess with a reasonable level of confidence:
 
 1. How the attacker got in - find the entry point (so we can close this hole)
