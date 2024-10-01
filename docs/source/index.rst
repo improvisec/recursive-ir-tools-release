@@ -12,12 +12,33 @@
 
 .. toctree::
    :maxdepth: 2
-   :caption: Contents:
+   :caption: Recursive IR:
 
-   UAL Fetcher
-   -----------
    Installation
-   Usage
+   Main_Menu
 
-   UAL Parser
-   ----------
+.. toctree::
+   :maxdepth: 2
+   :caption: UAL Fetcher:
+
+   ual_fetcher/usage/online_mode
+   ual_fetcher/usage/offline_mode
+   ual_fetcher/usage/resuming_sessions
+
+.. toctree::
+   :maxdepth: 2
+   :caption: UAL Parser:
+
+   ual_parser/usage/selection
+   ual_parser/usage/reporting
+   ual_parser/report/tabs/dodgy_days
+   ual_parser/report/tabs/logins
+   ual_parser/report/tabs/ISP_stats
+   ual_parser/tabs/applications
+   ual_parser//tabs/inbox_rules
+   report/tabs/created_users
+   report/tabs/deleted_user
+   report/tabs/new_assigned_roles
+   report/tabs/new_consented_apps
+   report/tabs/new_added_secrets
+   reports/tabs/events
