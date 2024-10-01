@@ -1,4 +1,4 @@
-UAL Fetcher
+UAL Parser
 ===========
 
 This section covers different usages.
@@ -6,7 +6,7 @@ This section covers different usages.
 .. toctree::
    :maxdepth: 2
 
-   Report
-   Usage
+   ual_parser/report
+   ual_parser/usage
 
 
