@@ -12,7 +12,7 @@
 
 .. toctree::
    :maxdepth: 2
-   :caption: Recursive IR:
+   :caption: Recursive IR Tools:
 
    Installation
    Main_Menu
@@ -31,14 +31,15 @@
 
    ual_parser/usage/selection
    ual_parser/usage/reporting
+   ual_parser/usage/extraction
    ual_parser/report/tabs/dodgy_days
    ual_parser/report/tabs/logins
    ual_parser/report/tabs/ISP_stats
-   ual_parser/tabs/applications
-   ual_parser//tabs/inbox_rules
-   report/tabs/created_users
-   report/tabs/deleted_user
-   report/tabs/new_assigned_roles
-   report/tabs/new_consented_apps
-   report/tabs/new_added_secrets
-   reports/tabs/events
+   ual_parser/report/tabs/applications
+   ual_parser/report/tabs/inbox_rules
+   ual_parser/report/tabs/created_users
+   ual_parser/report/tabs/deleted_user
+   ual_parser/report/tabs/new_assigned_roles
+   ual_parser/report/tabs/new_consented_apps
+   ual_parser/report/tabs/new_added_secrets
+   ual_parser/reports/tabs/events
