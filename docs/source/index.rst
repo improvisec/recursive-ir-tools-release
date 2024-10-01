@@ -16,12 +16,7 @@
 
    Installation
    Main_Menu
-
-.. toctree::
-   :maxdepth: 2
-   :caption: UAL Fetcher:
-
-   ual_fetcher/usage
+   ual_fetcher
 
 .. toctree::
    :maxdepth: 2
