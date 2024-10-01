@@ -1,5 +1,5 @@
-Reporting
-=========
+Usage
+=====
 
 This section covers different reports.
 
