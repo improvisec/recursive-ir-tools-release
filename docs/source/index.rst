@@ -22,8 +22,6 @@
    :caption: UAL Fetcher:
 
    ual_fetcher/usage
-   ual_fetcher/usage
-   ual_fetcher/usage
 
 .. toctree::
    :maxdepth: 2
