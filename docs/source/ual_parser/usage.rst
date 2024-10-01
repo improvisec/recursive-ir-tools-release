@@ -1,7 +1,7 @@
 Usage
 =====
 
-This section covers different reports.
+This section covers different usages.
 
 .. toctree::
    :maxdepth: 2

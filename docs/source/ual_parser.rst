@@ -1,7 +1,7 @@
 UAL Parser
 ===========
 
-This section covers different usages.
+This section covers different sections.
 
 .. toctree::
    :maxdepth: 2
