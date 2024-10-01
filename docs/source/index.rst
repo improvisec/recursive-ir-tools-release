@@ -21,9 +21,9 @@
    :maxdepth: 2
    :caption: UAL Fetcher:
 
-   ual_fetcher/usage/online_mode
-   ual_fetcher/usage/offline_mode
-   ual_fetcher/usage/resuming_sessions
+   ual_fetcher/usage
+   ual_fetcher/usage
+   ual_fetcher/usage
 
 .. toctree::
    :maxdepth: 2
