@@ -17,6 +17,7 @@
    Installation
    Main_Menu
    ual_fetcher
+   ual_parser
 
 .. toctree::
    :maxdepth: 2
