@@ -10,7 +10,7 @@ This section covers different reports.
    report/logins
    report/ISP_stats
    report/applications
-   report/mfa_devices
+   report/new_mfa_devices
    report/inbox_rules
    report/created_users
    report/deleted_users

@@ -6,7 +6,7 @@
 # -- Project information -----------------------------------------------------
 # https://www.sphinx-doc.org/en/master/usage/configuration.html#project-information
 
-project = 'recursive-ir-tools'
+project = ''
 copyright = '2024, mark alvarez'
 author = 'mark alvarez'
 
@@ -25,3 +25,7 @@ exclude_patterns = ['_build', 'Thumbs.db', '.DS_Store']
 
 html_theme = 'furo'
 html_static_path = ['_static']
+html_css_files = [
+    'custom.css',
+]
+html_title = 'Recursive IR Tools'

@@ -5,22 +5,26 @@
 
 .. image:: /images/splash.png
    :alt: recursive logo
+   :align: center
 
-**Recursive IR Tools** automate various tasks involved in incident response investigations including artefacts collection, log parsing, evidence analysis, timelining, and reporting. 
 
+Recursive IR Tools
+==================
 
+Automate various tasks involved in incident response investigations including artefacts collection, log parsing, evidence analysis, timelining, and reporting.
 
 .. toctree::
    :maxdepth: 2
-   :caption: Recursive IR Tools:
+   :hidden:
 
    Installation
    Main_Menu
 
-   ----------------------
+-------------------
 
-   Tools
-   =====
+.. toctree::
+   :maxdepth: 2
+   :hidden:
 
    ual_fetcher
    ual_parser
