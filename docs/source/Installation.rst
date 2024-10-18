@@ -10,7 +10,7 @@ To use ual_fetcher and ual_parser, the following must be performed. On a Windows
 
 1. Download and extract the `latest <https://updates.recursive.improvisec.com/latest>`_ package from https://updates.recursive.improvisec.com/downloads.
 
-2. Download and install Python 3.12.7 from https://www.python.org/downloads/windows/ihttps://www.python.org/downloads/windows/
+2. Download and install Python 3.12.7 from https://www.python.org/downloads/windows/.
 
 3. Install the required python modules found in requirements.txt by running the following command below in the command prompt (from within the extracted package folder).
 
