@@ -1,5 +1,5 @@
-Installation Guide
-==================
+Installation
+============
 
 
 
@@ -39,3 +39,16 @@ To use ual_fetcher and ual_parser, the following must be performed. On a Windows
 * Microsoft Office Excel (or anyting that can open an xlsx file) - The program generates .xlsx spreadsheets for individual users or applications. 
 * An M365 account with proper permission to perform unified audit log retrieval via Search-UnifiedAuditLog powershell commandlet. Consult Microsoft's `documentation <https://learn.microsoft.com/en-us/powershell/module/exchange/search-unifiedauditlog?view=exchange-ps>`_ for more information.
 
+
+
+Updating
+========
+
+To check for available updates, the 'u' key can be pressed while in the main menu. This will trigger the recursive_ir app to connect to https://updates.recursive.improvisec.com/check_updates_free where if available, the user will be prompted to download the updated toolset.
+
+Installation of the updates involves closing the application, extracting the new package in the current directory while overwriting the previous components and re-launching the recursive_ir tools again.
+
+.. image:: /images/updating.jpg
+   :alt: updating
+   :align: center
+   :scale: 50

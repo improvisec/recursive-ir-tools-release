@@ -11,4 +11,4 @@ Select the desired tool by moving the cursor up or down using the arrow keys and
 Additional keyboard shortcuts will be implemented in the future but for now, the following are used:
 
 * "u" - Check for and retrieve software updates. 
-* "q" - Go back to the main menu.
+* "q" - Go back to the main menu or exit the program.

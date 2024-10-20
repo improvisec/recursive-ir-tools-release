@@ -8,4 +8,3 @@ This section covers different usages.
 
    usage/extraction
    usage/reporting
-   usage/selection
