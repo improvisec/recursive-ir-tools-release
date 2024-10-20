@@ -17,14 +17,14 @@ The most common collection method is using a PowerShell cmdlet called "Search-Un
 
 UAL Fetcher ingests audit logs into a memory-mapped embedded database (LMDB) which uses B-tree algorithm so entries are naturally sorted and de-duplicated upon ingestion. An index is created which links all relevant events performed by, on, or on-behalf-of the principal making event tracking more accurate.
 
-A list of current features supported are listed below:
+Current features supported are listed below:
 
     * retrieval of audit logs with auto back-offs and retries to deal with server-side rate limiting
     * auto-adjusting search interval to overcome the 50,000/5,000 search result limit
     * resuming of interrupted online log retrieval
     * event sorting and de-duplication
     * event indexing for faster extraction and processing
-    * data compression
+    * data compression using zstandard library
     * credential caching and log retrieval session management
     * onlined mode supports automatic mapping of GUIDs to user email addresses or service principal display names.
     * offline geo-location enrichment c/o the awesome https://ipinfo.io
