@@ -44,7 +44,7 @@ To use ual_fetcher and ual_parser, the following must be performed. On a Windows
 Updating
 ========
 
-To check for available updates, the 'u' key can be pressed while in the main menu. This will trigger the recursive_ir app to connect to https://updates.recursive.improvisec.com/check_updates_free where if available, the user will be prompted to download the updated toolset.
+To check for available updates, the 'u' key can be pressed while in the main menu. This will trigger the recursive_ir app to connect to https://updates.recursive.improvisec.com/check_updates where if available, the user will be prompted to download the updated toolset.
 
 Installation of the updates involves closing the application, extracting the new package in the current directory while overwriting the previous components and re-launching the recursive_ir tools again.
 
