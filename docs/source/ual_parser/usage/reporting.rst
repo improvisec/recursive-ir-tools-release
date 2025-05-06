@@ -26,6 +26,7 @@ This section covers different reports.
    report/new_added_secrets
    report/password_spray
    report/session_hijack
+   report/bruteforce
    report/events
 
 
