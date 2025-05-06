@@ -27,10 +27,12 @@ Current features supported are listed below:
     - Potential password spraying attack
     - Suspicious search queries
     - Suspicious file accessed/downloads
+
     * Efficient searching to locate users and apps or quickly match them by:
     - pre-built indicators (configurable frequency parameters)
     - operations (all operations identified from the logs are indexed configurable via the app or in yaml to enable them at startup)
     - free text (currently indexed fields: subject, ip address, session id, client info string, asn, internet message id, user agent, application id)
+    
     * Generate spreadsheet reports or export relevant events into json files
     * Text UI has been designed specifically for keyboard enthusiasts where all app controls are accessible without using the mouse pointer (although it works too!).
 
