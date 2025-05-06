@@ -1,11 +1,9 @@
-Password Spray Attack
-=====================
+AiTM / Session Hijacking
+========================
 
-Users who recorded multiple failed logins from the same Internet Service Provider within the same IP address subnet may indicate a tenant-wide password spraying attack. 
-
-The "potential password sprays" tab provides a list of failed logon events from the user and any other user where the source IP address belongs to the same ISP and part of the same subnet. The assumption is that threat actors often rotate IP infrastructure during password spraying to bypass lockouts and/or detection. The duration limit in minutes as well as the minimum number of users within the same group can be configured (e.g., within 120 minutes, if at least 6 other users had failed logins from the same source, then consider this user as being part of a password spray attack.)
+During Adversary in The Middle (AiTM) attacks, attackers would hijack the victim user's session through the stolen session token. Since the attacker would use this token from a different source IP address, it is quite easy to spot a user that has become a victim of such attack. Within a given duration, say 60 minutes, if the user re-uses a token from a different IP address, this user is flagged as a potential victim of session hijacking, possibly through adversary in the middle. Unfortunately in digital forensics, nothing is easy to prove. There will always be false positives, but if you combine this indicator with other indicators seen for this user, your initial assumption might very well be true.
 
 
-.. image:: /images/spray.png
+.. image:: /images/hijack.png
    :alt: log path
    :scale: 50
