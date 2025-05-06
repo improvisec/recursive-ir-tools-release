@@ -24,6 +24,8 @@ This section covers different reports.
    report/new_assigned_roles
    report/new_consented_apps
    report/new_added_secrets
+   report/password_spray
+   report/session_hijack
    report/events
 
 
