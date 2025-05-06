@@ -1,5 +1,5 @@
-UAL Fetcher 
-===========
+UAL Processor 
+=============
 
 The Unified Audit Log Processor is a handy tool that allows retrieval of audit logs from a Microsoft 365 tenant. If you're working in DFIR space, one of the most common investigations you are likely carry out is business email compromise incident in Azure/Microsoft 365. 
 
