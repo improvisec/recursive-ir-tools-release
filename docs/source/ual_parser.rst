@@ -18,22 +18,22 @@ During client incident response engagements, this will be handy to quickly triag
 
 Current features supported are listed below:
 
-- Pre-built indicators of compromise including:
+1. Pre-built indicators of compromise including:
 
  - Successful logins from multiple countries
  - Successful logins from multiple ISPs
  - Multiple failed MFA logins
-* Potential bruteforce attack
-* Potential AiTM/session hijacking attack
-* Potential password spraying attack
-* Suspicious search queries
-* Suspicious file accessed/downloads
+ - Potential bruteforce attack
+ - Potential AiTM/session hijacking attack
+ - Potential password spraying attack
+ - Suspicious search queries
+ - Suspicious file accessed/downloads
 
 2. Efficient searching to locate users and apps or quickly match them by:
 
-* pre-built indicators (configurable frequency parameters)
-* operations (all operations identified from the logs are indexed configurable via the app or in yaml to enable them at startup)
-* free text (currently indexed fields: subject, ip address, session id, client info string, asn, internet message id, user agent, application id)
+ - pre-built indicators (configurable frequency parameters)
+ - operations (all operations identified from the logs are indexed configurable via the app or in yaml to enable them at startup)
+ - free text (currently indexed fields: subject, ip address, session id, client info string, asn, internet message id, user agent, application id)
 
 3. Generate spreadsheet reports or export relevant events into json files
 4. Text UI has been designed specifically for keyboard enthusiasts where all app controls are accessible without using the mouse pointer (although it works too!).
