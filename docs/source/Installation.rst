@@ -11,6 +11,11 @@ To use ual_fetcher and ual_parser, the following must be performed. On a Windows
 1. Download and extract the `latest <https://updates.recursive.improvisec.com/downloads/latest>`_ package from https://updates.recursive.improvisec.com/downloads.
    The full version can be downloaded from this `link <https://updates.recursive.improvisec.com/downloads/full/latest>`_ but requires a `validated <https://updates.recursive.improvisec.com/license/register>`_ email address to get the license needed.
 
+   .. image:: /images/register.png
+   :alt: register license
+   :align: center
+   :scale: 50
+
 2. Download and install Python 3.12.7 from https://www.python.org/downloads/windows/.
 
 3. Install the required python modules found in requirements.txt by running the following command below in the command prompt (from within the extracted package folder).
