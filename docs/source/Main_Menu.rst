@@ -5,7 +5,7 @@ Main Menu
    :alt: recursive logo
    :align: center
 
-The tool provides a simple interactive text-based menu. 
+The tool provides a simple interactive text-based menu. Activate the menu by running "recursive_ir.py" script from the downloaded application package.
 Select the desired tool by moving the cursor up or down using the arrow keys and press enter to select the tool.
 
 Additional keyboard shortcuts will be implemented in the future but for now, the following are used:
