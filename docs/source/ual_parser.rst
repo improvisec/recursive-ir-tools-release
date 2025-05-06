@@ -18,11 +18,11 @@ During client incident response engagements, this will be handy to quickly triag
 
 Current features supported are listed below:
 
-1. Pre-built indicators of compromise including:
+- Pre-built indicators of compromise including:
 
-* Successful logins from multiple countries
-* Successful logins from multiple ISPs
-* Multiple failed MFA logins
+ - Successful logins from multiple countries
+ - Successful logins from multiple ISPs
+ - Multiple failed MFA logins
 * Potential bruteforce attack
 * Potential AiTM/session hijacking attack
 * Potential password spraying attack
