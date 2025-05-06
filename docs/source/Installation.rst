@@ -11,8 +11,8 @@ To use UAL Processor and UAL Investigator, the following must be performed. On a
 1. Download and extract the `latest <https://updates.recursive.improvisec.com/downloads/latest>`_ package from https://updates.recursive.improvisec.com/downloads.
    The full version can be downloaded from this `link <https://updates.recursive.improvisec.com/downloads/full/latest>`_ but requires a `validated <https://updates.recursive.improvisec.com/license/register>`_ email address to get the license needed.
 
-   .. image:: /images/register.png
-   :alt: register license
+.. image:: /images/register.png
+   :alt: missing modules
    :align: center
    :scale: 50
 
