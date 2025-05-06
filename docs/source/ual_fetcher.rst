@@ -1,7 +1,7 @@
 UAL Fetcher 
 ===========
 
-Unified Audit Log Fetcher (ual_fetcher) is a handy tool that allows retrieval of audit logs from a Microsoft 365 tenant. If you're working in DFIR space, one of the most common investigations you've likely done before is business email compromise incident in Azure/Microsoft 365. 
+The Unified Audit Log Processor is a handy tool that allows retrieval of audit logs from a Microsoft 365 tenant. If you're working in DFIR space, one of the most common investigations you are likely carry out is business email compromise incident in Azure/Microsoft 365. 
 
 The most common collection method is using a PowerShell cmdlet called "Search-UnifiedAuditLog". This presents a number of challenges namely:
 
@@ -12,10 +12,10 @@ The most common collection method is using a PowerShell cmdlet called "Search-Un
 
 2. The sheer volume of events generated on each tenant specially with big organizations (some tenants generate gigabytes of audit logs in a day), makes log retrieval quite challenging specially if you are aiming for a "forensically sound" acquisition.
 3. Microsoft doesn't sort events by default but an experimental support for sorted, larger, result set retrieval is in the works. For now, you have to work with what's available.
-4. During searches using the cmdlet, the server may return duplicate entries, the only way to deal with this (if using Excel's de-duplicate function isn't feasible due to high volume of data collected), is to ingest the log data into a database or run it through a script. 
+4. Similar tool exists for retrieving audit logs, however, nothing exists outside of a SIEM that provides a means of storing them into a resilient structured storage that can later on be accessed efficiently for easier analysis. 
 5. When doing an investigation, it is important to be as detailed as possible about all activities related to the incident. All events performed by, or on behalf of the potentially compromised account must be accounted for to have a complete trail of events. 
 
-UAL Fetcher ingests audit logs into a memory-mapped embedded database (LMDB) which uses B-tree algorithm so entries are naturally sorted and de-duplicated upon ingestion. An index is created which links all relevant events performed by, on, or on-behalf-of the principal making event tracking more accurate.
+6. UAL Processor ingests audit logs into a memory-mapped embedded database (LMDB) which uses B-tree algorithm so entries are naturally sorted and de-duplicated upon ingestion. An index is created which links all relevant events performed by, on, or on-behalf-of the principal making event tracking more accurate. A separate index is created for frequently searched fields and M365 operations for lightning fast users and applications matching.
 
 Current features supported are listed below:
 
@@ -26,10 +26,9 @@ Current features supported are listed below:
     * event indexing for faster extraction and processing
     * data compression using zstandard library
     * credential caching and log retrieval session management
-    * onlined mode supports automatic mapping of GUIDs to user email addresses or service principal display names.
+    * online mode supports automatic mapping of GUIDs to user email addresses or service principal display names.
     * offline geo-location enrichment c/o the awesome https://ipinfo.io
-    * support parallel processing of data to speed up offline ingestion. No issues ingesting 256GB worth of logs. 
-
+    * supports parallel processing of data to speed up offline ingestion (all useful telemetries and statistics are collected during the ingestion). 
 
 
 
