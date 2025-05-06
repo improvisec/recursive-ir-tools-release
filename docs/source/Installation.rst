@@ -3,10 +3,10 @@ Installation
 
 
 
-**Unified Audit Log Fetcher and Parser**
+**Unified Audit Log Processor and Investigator**
 
 
-To use ual_fetcher and ual_parser, the following must be performed. On a Windows 10 (or newer) machine:
+To use UAL Processor and UAL Investigator, the following must be performed. On a Windows 10 (or newer) machine:
 
 1. Download and extract the `latest <https://updates.recursive.improvisec.com/downloads/latest>`_ package from https://updates.recursive.improvisec.com/downloads.
    The full version can be downloaded from this `link <https://updates.recursive.improvisec.com/downloads/full/latest>`_ but requires a `validated <https://updates.recursive.improvisec.com/license/register>`_ email address to get the license needed.
@@ -45,7 +45,19 @@ To use ual_fetcher and ual_parser, the following must be performed. On a Windows
 * Microsoft Office Excel (or anyting that can open an xlsx file) - The program generates .xlsx spreadsheets for individual users or applications. 
 * An M365 account with proper permission to perform unified audit log retrieval via Search-UnifiedAuditLog powershell commandlet. Consult Microsoft's `documentation <https://learn.microsoft.com/en-us/powershell/module/exchange/search-unifiedauditlog?view=exchange-ps>`_ for more information.
 
+*Package Contents:*
 
+.. image:: /images/package.png
+   :alt: package contents
+   :align: center
+   :scale: 50
+
+- country_asn.mmdb - geolocation database in maxminddb format
+- ms_apps.yml - Microsoft first party apps
+- operations.yml - list of M365 operations or activities used to filter search results
+- recursive_ir.py - Recursive IR Tools main program
+- ual_fetcher.py - UAL Processor program
+- ual_parser.py - UAL Investigator app
 
 Updating
 ========
