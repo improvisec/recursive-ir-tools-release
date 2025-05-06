@@ -16,7 +16,27 @@ The tool would flag each day having met a certain criteria as "dodgy" and hence 
 
 During client incident response engagements, this will be handy to quickly triage the whole tenant not only to idenify potentially compromised accounts, but also to pinpoint when the compromise may have started.
 
+Current features supported are listed below:
 
+    * pre-built indicators including:
+    - Successful logins from multiple countries
+    - Successful logins from multiple ISPs
+    - Multiple failed MFA logins
+    - Potential bruteforce attack
+    - Potential AiTM/session hijacking attack
+    - Potential password spraying attack
+    - Suspicious search queries
+    - Suspicious file accessed/downloads
+    * Efficient searching to locate users and apps or quickly match them by:
+    - pre-built indicators (configurable frequency parameters)
+    - operations (all operations identified from the logs are indexed configurable via the app or in yaml to enable them at startup)
+    - free text (currently indexed fields: subject, ip address, session id, client info string, asn, internet message id, user agent, application id)
+    * Generate spreadsheet reports or export relevant events into json files
+    * Text UI has been designed specifically for keyboard enthusiasts where all app controls are accessible without using the mouse pointer (although it works too!).
+
+.. image:: /images/help.png
+   :alt: Help Menu
+   :align: center
 
 .. toctree::
    :maxdepth: 2
