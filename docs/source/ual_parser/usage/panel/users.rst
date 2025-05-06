@@ -29,8 +29,3 @@ Similar to when searching for operations, navigate through the resulting list us
    :alt: log path
    :scale: 50
 
-Saving Operations
------------------
-
-To save the currently toggled operations, hit ctrl+s. This will save the enabled/disabled status back into operations.yml so changes will persist on the next application run. Changing the frequencies/threshold on the other hand automatically persists the changes into the operaitons.yml file.
-
