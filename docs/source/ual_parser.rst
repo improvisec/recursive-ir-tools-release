@@ -10,7 +10,7 @@ The Unified Audit Log Investigator is a Text UI application that provides an eff
    :align: center
 
 
-Statistics are collected by the UAL Processor such as how many successful and failed logins each day from each location occur, or the list of applications registered, inbox rules added, or even MFA devices registered, all broken down for every user or service principal in the tenant. A DFIR investigator for example can identify users that were compromised through Adversary in The Middle or all users that have been targeted by a password spraying attacks.
+Statistics are collected by the UAL Processor such as how many successful and failed logins each day from each location occur, or the list of applications registered, inbox rules added, or even MFA devices registered, all broken down for every user or service principal in the tenant. A DFIR investigator for example can identify users that were compromised through Adversary in The Middle or all users that have been targeted by a password spraying attack.
 
 The tool would flag each day having met a certain criteria as "dodgy" and hence categorize that user or service pricipal as dodgy. For example, if there is at least one day when the user logged in successfully from at least 4 different countries, that could be considered as dodgy. Likewise, having logged in from more than three Internet Service Providers or ASN at any given day is also suspicious. Similarly, registering a new MFA device would be considered as dodgy too if it happens quite recently.
 
