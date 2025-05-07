@@ -24,7 +24,7 @@ To use UAL Processor and UAL Investigator, the following must be performed. On a
 
    pip install -r requirements.txt
 
-4. Install the required PowerShell 5.x modules. When running ual_fetcher, you will be prompted to install the required powershell modules if they aren't already installed. 
+4. Install the required PowerShell 5.x modules. When running the UAL Processor, you will be prompted to install the required powershell modules if they aren't already installed. 
 
 .. image:: /images/missing_modules1.jpg
    :alt: missing modules
