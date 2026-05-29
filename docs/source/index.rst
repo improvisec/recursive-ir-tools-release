@@ -8,7 +8,8 @@
    :align: center
 
 
-Recursive IR Tools
+Recursive IR Tools (ARCHIVED)
+(This project is being archived and will be merged into Recursive-IR project (see https://github.com/improvisec/recursive-ir)
 ==================
 
 Automate various tasks involved in incident response investigations including artefacts collection, log parsing, evidence analysis, timelining, and reporting.
